@@ -1,0 +1,26 @@
+.purchaseContainer {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.addItem {
+  display: flex;
+  background-color: gray;
+  padding: 20px;
+  margin-top: 30px;
+  width: 100%;
+  justify-content: space-between;
+}
+.purchaseItem {
+  margin-top: 1px;
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgreen;
+  width: 100%;
+  padding: 20px;
+}
